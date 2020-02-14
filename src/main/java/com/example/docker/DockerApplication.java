@@ -37,6 +37,7 @@ public class DockerApplication implements CommandLineRunner {
 		log.info("StartApplication...");
 		runJDBC();
 		log.info("inputValue " + inputValue);
+		log.info("Test Build Changed ");
 	}
 
 	void runJDBC() {
